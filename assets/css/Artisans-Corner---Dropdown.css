@@ -10,3 +10,15 @@ a, a:hover, a:focus {
   background: #E1E1DF;
 }
 
+h1 {
+}
+
+.tooltip {
+  --bs-tooltip-bg: black;
+  --bs-tooltip-color: white;
+}
+
+.tooltip .tooltip-arrow::before {
+  border-top-color: black;
+}
+
