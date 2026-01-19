@@ -2,10 +2,10 @@
 // Posted by Durga
 // Retrieved 2026-01-19, License - CC BY-SA 3.0
 
-var audio = document.getElementById("sodtheme");
-audio.onended = function() {
+var sodaudio = document.getElementById("sodtheme");
+sodaudio.onended = function() {
   console.log('Playing background audio')
-  audio.play();
+  sodaudio.play();
 };
 
 document.addEventListener('DOMContentLoaded', (event) => {
@@ -20,9 +20,9 @@ for (var i = 0; i < audioElements.length; i++) {
     audioElements[i].pause();
     audioElements[i].currentTime = 0;
 }
-          var audio = document.getElementById("sodtheme");
-            audio.currentTime = 0;
-            audio.play();
+          var sodaudio = document.getElementById("sodtheme");
+            sodaudio.currentTime = 0;
+            sodaudio.play();
     });
   }
 });
