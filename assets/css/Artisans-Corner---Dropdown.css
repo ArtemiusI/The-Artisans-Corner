@@ -15,3 +15,11 @@ h1 {
   border-top-color: black;
 }
 
+.spell-bar .nav-link.active {
+  color: gold !important;
+}
+
+.spell-bar .nav-link {
+  color: grey !important;
+}
+

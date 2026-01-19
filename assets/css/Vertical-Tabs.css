@@ -53,3 +53,7 @@
   background: radial-gradient(var(--bs-dark-bg-subtle), rgba(255,255,255,0) 80%), rgba(67,76,232,0);
 }
 
+.nav-link.active.spell-tab {
+  background: linear-gradient(90deg, var(--bs-danger-text-emphasis), rgba(255,255,255,0));
+}
+
