@@ -5,7 +5,7 @@
 var audio = document.getElementById("bg1theme");
 audio.onended = function() {
   console.log('Playing background audio')
-  iwdaudio.play();
+  audio.play();
 };
 
 document.addEventListener('DOMContentLoaded', (event) => {
