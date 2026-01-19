@@ -2,10 +2,10 @@
 // Posted by Durga
 // Retrieved 2026-01-19, License - CC BY-SA 3.0
 
-var iwdaudio = document.getElementById("iwdtheme");
-iwdaudio.onended = function() {
+var audio = document.getElementById("iwdtheme");
+audio.onended = function() {
   console.log('Playing background audio')
-  iwdaudio.play();
+  audio.play();
 };
 
 document.addEventListener('DOMContentLoaded', (event) => {
