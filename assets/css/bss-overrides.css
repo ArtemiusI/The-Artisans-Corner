@@ -1,3 +1,12 @@
+:root, [data-bs-theme=light] {
+  --bs-body-color: #e1e1df;
+  --bs-body-color-rgb: 225,225,223;
+  --bs-secondary-color: rgba(225,225,223,0.75);
+  --bs-secondary-color-rgb: 225,225,223,0.75;
+  --bs-tertiary-color: rgba(225,225,223,0.5);
+  --bs-tertiary-color-rgb: 225,225,223,0.5;
+}
+
 .p-3 {
   padding: 1rem!important;
 }

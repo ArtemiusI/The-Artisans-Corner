@@ -8,11 +8,6 @@
   text-shadow: none;
 }
 
-.img-shadow {
-  box-shadow: 0px 0px 20px rgba(40,42,50,0.12);
-  border-radius: 15px;
-}
-
 .tabs-shell {
   margin-bottom: 10px;
   padding: 8px 16px;
