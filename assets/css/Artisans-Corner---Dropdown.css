@@ -1,5 +1,6 @@
 .spell-bar .nav-link.active {
   color: gold !important;
+  border-color: rgba(255,255,255,0) !important;
 }
 
 .spell-bar .nav-link {

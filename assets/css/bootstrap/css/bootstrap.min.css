@@ -1699,3 +1699,9 @@ button, select {
   --bs-tooltip-color: var(--bs-secondary-border-subtle);
 }
 
+.tooltip-inner {
+  max-width: 500px !important;
+  width: max-content;
+  text-align: left;
+}
+
